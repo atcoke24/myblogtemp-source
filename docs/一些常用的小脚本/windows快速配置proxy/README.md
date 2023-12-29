@@ -31,16 +31,3 @@ function unset_proxy {
 
     Write-Host "`n   CLOSE powershell proxy channel!`n"
 }
-```
-
-为了方便使用，可以在个人配置文件中添加这些代码:
-
-```powershell
-. D:\YOUR_COMMON_SCRIPT_PATH\set_proxy.ps1
-```
-
-这样每次启动 powershell 时都会自动执行，将 `set_proxy` 和 `unset_proxy` 添加进会话。
-
-这样可以通过直接执行这些代码使代理切换生效
-
-![preview](./preview.png)

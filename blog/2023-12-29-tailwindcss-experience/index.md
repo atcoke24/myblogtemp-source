@@ -1,7 +1,7 @@
 ---
 slug: tailwindcss-experience
 title: tailwindcss-experience
-authors: [yangshun]
+authors: [liyunhe17]
 tags: [experience, tailwindcss]
 ---
 

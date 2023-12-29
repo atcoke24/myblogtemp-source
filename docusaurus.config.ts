@@ -52,7 +52,7 @@ const config: Config = {
       title: '未整理笔记',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.jpg',
       },
       items: [
         {
@@ -113,6 +113,10 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5
+    }
   } satisfies Preset.ThemeConfig,
 };
 
